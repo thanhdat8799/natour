@@ -1,0 +1,22 @@
+@mixin clearfix {
+  &::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin hoverphoto {
+  transition: all 0.2s;
+
+  &:hover{
+    z-index: 1;
+    transform: scale(1.2) translateY(-2rem);
+    ox-shadow: 1rem 4rem 5rem rgba($color-black, 0.2);
+    outline: .5rem solid rgba($color-primary-darker, 0.8);
+    outline-offset: 1rem;
+
+  }
+
+
+}

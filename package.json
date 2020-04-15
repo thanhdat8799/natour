@@ -1,0 +1,14 @@
+{
+  "name": "natour-remake",
+  "version": "1.0.0",
+  "description": "remake the natour project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "jay ngo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
